@@ -37,8 +37,10 @@ public class UsbControllerActivity extends Activity {
 
 	//1a86:7523 Bus 002 Device 010: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter
 
-	private static final int VID = 0x1a86;
-	private static final int PID = 0x7523;// for ch340 usb to serial chip
+//	private static final int VID = 0x1a86;
+//	private static final int PID = 0x7523;// for ch340 usb to serial chip
+	private static final int VID = 0x2341;
+	private static final int PID = 0x0043;// for oraginal Arduino UNO
 	//private static final int VID = 0x2341;
 	//private static final int PID = 0x0001;//I believe it is 0x0000 for the Arduino Megas
 	private static UsbController sUsbController;
